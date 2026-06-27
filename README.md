@@ -1,9 +1,12 @@
-CLI Mastery
-A simple, no-nonsense repository containing essential commands and use cases for Bash, Zsh, and PowerShell.
+# CLI Commands Reference
 
-Structure
-Each shell has its own folder with a single commands.md file:
+A minimal repository containing comprehensive command lists and use cases for **Bash**, **Zsh**, and **PowerShell**.
 
+## Structure
+
+Each shell has a dedicated folder with a single `commands.md` file. There are no subfolders, scripts, or external resources.
+
+```text
 .
 ├── README.md
 ├── bash/
@@ -14,8 +17,10 @@ Each shell has its own folder with a single commands.md file:
     └── commands.md
 
 Usage
-Clone the repo:
-git clone https://github.com/samm329-ui/Command_Line_Interface
-
-Open the commands.md file inside the folder of the shell you want to learn (e.g., bash/commands.md).
-Read the commands and try the use cases directly in your terminal.
+Clone the repository.
+Navigate to the specific shell folder (e.g., cd bash).
+Read commands.md for the complete list of commands and their practical use cases.
+Content
+bash/commands.md: All Bash commands and use cases.
+zsh/commands.md: All Zsh commands and use cases.
+powershell/commands.md: All PowerShell commands and use cases.
